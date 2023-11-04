@@ -35,7 +35,7 @@ test("renders a <li /> for each movie", () => {
   for (const actor of actors) {
     for (const movie of actor.movies) {
       const li = screen.queryByText(movie, { exact: false });
-      expect(li).toBeInTheDocument();
+     expect(li).toBeInTheDocument();
       expect(li.tagName).toBe("LI");
     }
   }
