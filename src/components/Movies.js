@@ -29,7 +29,7 @@ function Movies() {
           <ul>
             {movie.genres.map((genre, genreIndex) => (
               <li key={genreIndex}>{genre}</li>
-            ))} {/* Corrected the missing closing parenthesis here */}
+            ))} 
           </ul>
         </div>
       ))}

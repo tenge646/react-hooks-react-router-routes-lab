@@ -10,7 +10,7 @@ function Directors() {
       name: 'Director 2',
       movies: ['Movie C', 'Movie D'],
     },
-    // Add more director data here
+  
   ];
 
   return (
